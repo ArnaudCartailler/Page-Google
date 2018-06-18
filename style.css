@@ -1,0 +1,97 @@
+*{
+  margin: 0px;
+}
+
+.top{
+  text-align: right;
+  color:black;
+  font-family: sans-serif;
+  font-size: 12px;
+  margin-bottom: 12%;
+  word-spacing: 15px;
+  margin-right: 20px;
+  margin-top: 20px;
+
+}
+
+.top a{
+  color : black;
+}
+
+.imgcentre{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 24%;
+}
+
+input{
+  text-align: center;
+  box-shadow: 1px 2px grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.bouton{
+  text-align: center;
+  margin-bottom: 170px;
+}
+
+.pays{
+  background-color: #F4F4F4;
+
+  padding-top: 12px;
+  padding-bottom: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #BFC4C0;
+  padding-left: 10px;
+}
+
+.pays p{
+  font-family: sans-serif;
+  font-size: 14px;
+  color : #5C685E;
+  margin-left: 18px;
+}
+
+.bas {
+  color : #5C685E;
+  background-color: #F4F4F4;
+  font-family: sans-serif;
+  font-size: 12px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.PEA{
+    color: #5C685E;
+    margin-left: -10px;
+    height : 10px;
+    display: inline-block;
+    word-spacing: 8px;
+}
+
+.ICCP{
+  height : 10px;
+  display: inline-block;
+  float: right;
+  margin-right: 25px;
+  word-spacing: 8px;
+}
+
+a{
+  color : #5C685E;
+}
+
+a:link{
+text-decoration:none;
+color: #5C685E;
+}
+
+a:hover{
+  text-decoration: underline;
+}
