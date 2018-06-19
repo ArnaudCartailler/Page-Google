@@ -22,7 +22,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 24%;
+  width: 22%;
 }
 
 input{
@@ -30,53 +30,65 @@ input{
   margin-left: auto;
   margin-right: auto;
   width:40%;
-  border-color: #FFFCFC;
-  border-width: 1px;
-  box-shadow: 1px 5px 10px lightgrey;
+  border-width: thin;
+  box-shadow: 0px 2px 3px rgba(140,140,140,0.5);
   text-align: left;
+  opacity: 1;
   margin-top: 15px;
   margin-bottom: 30px;
-  padding-top: 20px;
+  padding-top: 5px;
+  padding-left: 10px;
+  height: 30px;
   font-size: 14px;
   font-weight: bold;
-  border-style: solid;
-  border-color: grey;
+  border: 1px solid rgba(140,140,140,0.5);
+  font-family: monospace;
+}
+
+
+
+.recherche{
+  color:black;
 }
 
 .bouton{
   text-align: center;
-  margin-bottom: 170px;
+  margin-bottom: 185px;
   font-family: sans-serif;
   font-size: 12px;
-  font-weight: bold;
   border-radius: 10%;
+
 }
 
 .RG{
-  background-color: lightgrey;
+  background-color: #F4F4F4;
   width: auto;
-  padding: 8px;
-  margin-left: 5px;
+  padding: 10px;
+  margin-right: 5px;
   display: inline-block;
+  font-weight: bold;
+  border: 1px solid white;
 }
 
 .chance{
-  background-color: lightgrey;
+  background-color: #F4F4F4;
   width: auto;
-  padding: 8px;
-  margin-left: 10px;
-display:inline-block;
+  padding: 10px;
+  margin-right: 80px;
+  font-weight: bold;
+  display:inline-block;
+  border: 1px solid white;
 }
 
 .pays{
   background-color: #F4F4F4;
-
-  padding-top: 12px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-width: 1px;
   border-style: solid;
   border-color: #BFC4C0;
   padding-left: 10px;
+  opacity: 0.8;
 }
 
 .pays p{
@@ -84,6 +96,7 @@ display:inline-block;
   font-size: 14px;
   color : #5C685E;
   margin-left: 18px;
+
 }
 
 .bas {
@@ -91,8 +104,10 @@ display:inline-block;
   background-color: #F4F4F4;
   font-family: sans-serif;
   font-size: 12px;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  margin-top: 10px;
+  padding-bottom: 1px;
+  margin-top: 1px;
 }
 
 .PEA{
@@ -122,4 +137,12 @@ color: #5C685E;
 
 a:hover{
   text-decoration: underline;
+}
+
+.bouton a:hover{
+  color: black;
+  text-decoration: none;
+  border: 1px solid lightgrey;
+  box-shadow: 1px 2px 2px lightgrey;
+
 }
