@@ -10,4 +10,4 @@ _ an input.
 _ 2 interactives boxes.
 _ 2 foots (Country and informations).
 
-It miss the github page.
+https://arnaudcartailler.github.io/Page-Google/
